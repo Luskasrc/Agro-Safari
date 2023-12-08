@@ -16,6 +16,17 @@ const styles = StyleSheet.create({
     height: 100,
 
   },
+  img10: {
+    width: '100%',
+    height: '100%',
+  },
+  icon: {
+    position: 'absolute',
+    top: 10, // Ajuste conforme necessário
+    left: 10, // Ajuste conforme necessário
+    width: 50, // Substitua pelo tamanho desejado
+    height: 50, // Substitua pelo tamanho desejado
+  },
   img1: {
     width: '100%',
     height: 150,
@@ -135,6 +146,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row', // Alinha os elementos horizontalmente
     justifyContent: 'space-around', // Adiciona espaçamento entre os elementos
  },
+ containerinfo1: {
+  flex: 1,
+}
 })
 
 export default styles;
